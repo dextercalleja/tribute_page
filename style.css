@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    background-color:#d3d3d3;
+    margin: 20px 25px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#title {
+    color: maroon;
+}
+
+header p {
+    padding: 5px;
+}
+
+
+#img-div {
+    background-color: black;
+    padding: 20px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#img-caption {
+    color: white;
+    font-size: 15px;
+}
+
+#tribute-info h2 {
+   padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border-bottom: 1px solid maroon;
+    padding: 5px;
+    text-align: left;
+}
+
+#footer-link {
+    background-color: black;
+}
+
+#footer-link h5 {
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#footer-link a {
+    color: white;
+}
