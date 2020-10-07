@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #ffffff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #main {
+            background-color:#d3d3d3;
+            margin: 20px 25px;
+            border-radius: 5px;
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        #title {
+            color: maroon;
+        }
+
+        header p {
+            padding: 5px;
+        }
+
+
+        #img-div {
+            background-color: black;
+            padding: 20px;
+        }
+
+        #image {
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        
+        #img-caption {
+            color: white;
+            font-size: 15px;
+        }
+
+        #tribute-info h2 {
+           padding: 15px;
+        }
+
+        /* #tribute-info ul li {
+            list-style: none;
+            margin: 0;
+            display: block;
+            text-align: left;
+        }
+        ul li {
+            padding: 5px;
+        } */
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td {
+            border-bottom: 1px solid maroon;
+            padding: 5px;
+            text-align: left;
+        }
+        
+        #footer-link {
+            background-color: black;
+        }
+
+        #footer-link h5 {
+            margin: 5px;
+            padding: 10px;
+            color: white;
+        }
+
+        #footer-link a {
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <main id = "main">
+        <!-- Name of the Persons and tagline-->
+        <header>        
+            <h1 id ="title">Dale Carnegie</h1>
+            <p><em>An American Writer and Lecturer</em></p>
+        </header>
+
+        <!-- Image of the Person-->
+        <figure id ="img-div">
+                <img src="https://jeremydotlive.files.wordpress.com/2016/05/dale.jpg?w=760" alt="" id="image">
+                <figcaption id="img-caption">Carnegie gradually refined his curriculum to better meet the needs of his professional students on Dale Carnegie institute.</figcaption>
+        </figure>
+
+        <!-- Timeline of the Person-->
+        <section id = "tribute-info">
+            <h2>Timeline</h2>
+            <table>
+                <tr>
+                    <td><strong>1888</strong></td>
+                    <td>Born in Maryville, Missouri</td>
+                </tr>
+                <tr>
+                    <td><strong>1908</strong></td>
+                    <td>Graduate college in Warrensburg</td>
+                </tr>
+                <tr>
+                    <td><strong>1911</strong></td>
+                    <td>Carnegie had saved up $500, which was enough to quit his job, move to New York City and try to make it as an actor</td>
+                </tr>
+                <tr>
+                    <td><strong>1913</strong></td>
+                    <td>Published his first book, Public Speaking and Influencing Men of Business, using it as a textbook for his courses</td>
+                </tr>
+                <tr>
+                    <td><strong>1931</strong></td>
+                    <td>First marriage ended in divorce</td>
+                </tr>
+                <tr>
+                    <td><strong>1936</strong></td>
+                    <td>Carnegie published just such a book: How to Win Friends and Influence People</td>
+                </tr>
+                <tr>
+                    <td><strong>1944</trong></td>
+                    <td>Carnegie married Dorothy Price Vanderpool</td>
+                </tr>
+                <tr>
+                    <td><strong>1953</strong></td>
+                    <td>Carnegie moved the institute's headquarters into a converted five-story brownstone warehouse in Manhattan</td>
+                </tr>
+                <tr>
+                    <td><strong>1955</strong></td>
+                    <td>Died of Hodgkin's disease</td>
+                </tr>
+
+            </table>
+        </section>
+        <!-- Other Sources of the Person-->
+        <div id= "footer-link">
+            <h5>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Dale_Carnegie" target = "_blank">Wikipedia entry</a>.</h5>
+        </div>
+    </main>
+</body>
+</html>
